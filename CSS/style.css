@@ -74,3 +74,104 @@ header{
     border-radius: 5px 5px 0px 0px;
     padding: 10px;
 }
+
+/*contenido principal*/
+#principal{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+#publicaciones{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.post{
+    width: 96%;
+    height: auto;
+    overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+
+.enlace-post{
+    text-decoration: none;
+}
+
+#publicaciones a .titulo-post{
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#publicaciones a .titulo-post:hover{
+    text-decoration: underline;
+}
+
+#publicaciones .img-post{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#publicaciones .datos-publicaciones{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0489b1;
+}
+
+#publicaciones .parrafo-post{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #848484;
+    padding: 5px;
+}
+
+#publicaciones .leer-mas{
+    background: #0489b1;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#publicaciones .leer-mas:hover{
+    background: #086a87;
+    color: #0489b1;
+}
+
+#publicaciones .num-comentarios{
+    background: #0b3b39;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#publicaciones .enlace-paginacion{
+    text-decoration: none;
+    color: #0489b1;
+}
+
+#publicaciones .enlace-paginacion:hover{
+    text-decoration: underline;
+}
