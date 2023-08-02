@@ -90,6 +90,7 @@ header{
     overflow: hidden;
     border: 1px solid red;
     margin-top: 10px;
+    float: left;
 }
 
 .post{
@@ -174,4 +175,50 @@ header{
 
 #publicaciones .enlace-paginacion:hover{
     text-decoration: underline;
+}
+
+#sidebar{
+    float: right;
+    width: 28%;
+    border: 1px solid;
+    height: auto;
+    overflow: hidden;
+}
+
+#buscar, #categorias, #sitios-amigos, #ultimos-post{
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#buscar input[type="text"]{
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #ccc inset;
+    padding: 10px 4px;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+#buscar .boton{
+    border: 0px;
+    color: #fff;
+    background: #0b4c5f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.encabezado-sidebar{
+    width: 100%;
+    height: 35px;
+    background: #0489b1;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
